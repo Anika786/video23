@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.middle{
+    width: 1250px;
+    margin: 10px auto;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+.menu{
+    background-color: #2980b9;
+}
+.menu h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+.menu ul li{
+    
+    flex-grow: 1;
+}
+.menu ul li a{
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    background-color: #126297;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.box-1-item{
+    border: 1px solid #2980b9;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 5px;
+}
+.gallery-content{
+    text-align: center;
+}
+.gallery-content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.photo-galeery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galleery-item{
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.galleery-item img{
+    width: 100px;
+    height: 100px;
+}
+.box-2{
+    display: flex;
+    margin: 10px 0;
+}
+.box-2-item{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid green;
+}
+.box-3{
+    display: flex;
+    margin: 10px 0;
+}
+.box-3-item{
+    flex-basis: 30%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.box-3-item-large{
+    flex-basis: 70%;
+}
+.box-3-item:nth-child(2){
+    border-left: none;
+}
+.box-4{
+    display: flex;
+    
+}
+.box-4-item{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+}
+.box-4-item:nth-child(2){
+    border-right: none;
+    border-left: none;
+    flex-basis: 10%;
+}
+.centercenterdiv{
+    width: 600px;
+    height: 600px;
+    border: 5px dashed brown;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-center{
+    width: 200px;
+    text-align: center;
+    height: 200px;
+    background: yellow;
+    color: #000;
+    
+}
+.inner-center h2{
+    padding-top: 80px;
+}
